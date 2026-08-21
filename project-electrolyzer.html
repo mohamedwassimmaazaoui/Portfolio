@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6 MW PEM Electrolyzer Simulation, Mohamed Wassim Maazaoui</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="nav-name">Mohamed Wassim Maazaoui</a>
+      <ul class="nav-links">
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="academic-projects.html">Academic Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <a href="projects.html" class="breadcrumb">← All Projects</a>
+    <h1>6 MW PEM Electrolyzer Modelling &amp; Simulation</h1>
+    <p>Final-year project: a hybrid renewable energy system simulation for green hydrogen production.</p>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-cell">
+      <div class="k">Software</div>
+      <ul class="spec-list"><li>MATLAB/Simulink</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Field</div>
+      <ul class="spec-list">
+        <li>Green Hydrogen Production</li>
+        <li>Renewable Energy</li>
+      </ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Skill</div>
+      <ul class="spec-list"><li>System Modelling &amp; Simulation</li></ul>
+    </div>
+  </div>
+
+  <p class="project-desc">Simulated a 6 MW PEM electrolyzer powered by a hybrid renewable source combining 2 MW of solar PV and 8 MW of wind power into a 10 MW supply. Built a monthly automation script that imports real weather data via CSV and runs 12 full simulations across the year, using a time-compression strategy (1,000 simulated seconds representing a 24-hour day) with a validated correction factor for hydrogen flow integration. Power output is split between the solar and wind sources via global annual peak normalization, and hydrogen mass output is calculated by integrating molar flow over time. System efficiency is computed from hydrogen output energy against electrical energy input.</p>
+
+  <div class="skills-group" style="margin-bottom:40px;">
+    <h3>Objective</h3>
+    <div class="chip-row">
+      <span class="chip">Monthly weather-data automation</span>
+      <span class="chip">Production Estimation</span>
+      <span class="chip">Electrochemical Simulation</span>
+      <span class="chip">Efficiency calculation</span>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div>
+      <img class="figure-img" src="electrolyzer-system-diagram.svg" alt="PEM electrolyzer Simulink system model diagram">
+      <div class="fig-caption">Fig. 01, System Model</div>
+    </div>
+    <div>
+      <img class="figure-img" src="true-monthly-production.png" alt="True monthly hydrogen production chart">
+      <div class="fig-caption">Fig. 02, True monthly hydrogen production</div>
+    </div>
+    <div>
+      <img class="figure-img" src="hydrogen-production-summary.png" alt="Daily hydrogen production chart">
+      <div class="fig-caption">Fig. 03, Daily hydrogen production (representative day)</div>
+    </div>
+    <div>
+      <img class="figure-img" src="efficiency-curve.png" alt="Monthly efficiency curve">
+      <div class="fig-caption">Fig. 04, Monthly efficiency η(Pel)</div>
+    </div>
+  </div>
+
+  <div class="skills-group" style="margin-top:40px;">
+    <h3>Internship context</h3>
+    <p class="project-desc" style="margin-bottom:0;">Completed as part of a mechanical engineering internship at CNR-ITAE (Istituto di Tecnologie Avanzate per l'Energia) in Messina, Italy, under the INTERREG NEXT Italie-Tunisie project. Supervised by Mr Foued Mzali and Mr Giovanni Brunaccini.</p>
+  </div>
+
+  <div class="cta-row" style="margin-top:56px; margin-bottom:80px;">
+    <a href="projects.html" class="btn btn-outline">← Back to Projects</a>
+  </div>
+
+</main>
+
+<footer>© 2026 Mohamed Wassim Maazaoui</footer>
+
+</body>
+</html>

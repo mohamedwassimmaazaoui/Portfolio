@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bullet Impact Simulation on Aluminum Alloy, Mohamed Wassim Maazaoui</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="nav-name">Mohamed Wassim Maazaoui</a>
+      <ul class="nav-links">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="academic-projects.html" class="active">Academic Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <a href="academic-projects.html" class="breadcrumb">← All Academic Projects</a>
+    <h1>Bullet Impact Simulation on Aluminum Alloy</h1>
+    <p>Yearly project: a high-velocity impact simulation, evaluating the residual velocity of a projectile after striking an aluminum plate.</p>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-cell">
+      <div class="k">Type</div>
+      <ul class="spec-list"><li>Yearly Project</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Software</div>
+      <ul class="spec-list"><li>Abaqus/Explicit</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Material</div>
+      <ul class="spec-list"><li>AL-6061-T651</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Element</div>
+      <ul class="spec-list"><li>C3D8RT</li></ul>
+    </div>
+  </div>
+
+  <div class="skills-group" style="margin-bottom:32px;">
+    <h3>Material Properties</h3>
+    <div class="chip-row">
+      <span class="chip">Density: 2700 kg/m³</span>
+      <span class="chip">Young's Modulus: 73.1 GPa</span>
+      <span class="chip">Poisson's Ratio: 0.3</span>
+    </div>
+  </div>
+
+  <div class="skills-group" style="margin-bottom:32px;">
+    <h3>Setup</h3>
+    <div class="chip-row">
+      <span class="chip">Target clamped on all 4 lateral faces</span>
+      <span class="chip">Target: 0.3 × 0.3 m plate</span>
+      <span class="chip">Projectile: 0.068 m length, ⌀0.006 m</span>
+    </div>
+  </div>
+
+  <p class="project-desc">Simulated the high-velocity impact of a projectile on an AL-6061-T651 plate in Abaqus/Explicit, using C3D8RT elements with the plate clamped on all four lateral faces and the projectile fired directly into the structure. The plate was tested across a range of impact velocities from roughly 280 to 900 m/s, evaluating both the projectile's residual velocity after impact and the time it took to penetrate the plate at each speed. Results showed a strong nonlinear relationship: penetration time drops sharply as impact velocity increases from around 300 m/s, then levels off past roughly 900 m/s. At the lowest velocities tested, the projectile was fully stopped by the plate, showing no residual velocity, consistent with impacts near the plate's ballistic limit, while at higher velocities residual velocity tracked closely with initial velocity as the projectile fully perforated the target.</p>
+
+  <div class="skills-group" style="margin-bottom:40px;">
+    <h3>Objective</h3>
+    <div class="chip-row">
+      <span class="chip">High-velocity impact simulation</span>
+      <span class="chip">Residual velocity analysis</span>
+      <span class="chip">Penetration time analysis</span>
+      <span class="chip">Ballistic limit identification</span>
+    </div>
+  </div>
+
+  <div class="media-feature">
+    <video class="figure-video" src="bullet-impact-simulation.mp4" muted loop playsinline controls></video>
+    <div class="fig-caption">Abaqus/Explicit impact simulation</div>
+  </div>
+
+  <div class="gallery" style="margin-top: 20px;">
+    <div>
+      <img class="figure-img" src="bullet-impact-target-schematic.png" alt="Target plate schematic, 0.3 by 0.3 meters">
+      <div class="fig-caption">Target plate schematic</div>
+    </div>
+    <div>
+      <img class="figure-img" src="bullet-impact-projectile-schematic.png" alt="Projectile schematic with dimensions">
+      <div class="fig-caption">Projectile schematic</div>
+    </div>
+    <div>
+      <img class="figure-img" src="bullet-impact-penetration-time.png" alt="Chart showing penetration time versus impact velocity">
+      <div class="fig-caption">Penetration time vs. impact velocity</div>
+    </div>
+    <div>
+      <img class="figure-img" src="bullet-impact-velocity-comparison.png" alt="Bar chart comparing initial and residual velocity across trials">
+      <div class="fig-caption">Initial vs. residual velocity across trials</div>
+    </div>
+  </div>
+
+  <div class="cta-row" style="margin-top:56px; margin-bottom:80px;">
+    <a href="academic-projects.html" class="btn btn-outline">← Back to Academic Projects</a>
+  </div>
+
+</main>
+
+<footer>© 2026 Mohamed Wassim Maazaoui</footer>
+
+</body>
+</html>

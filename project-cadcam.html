@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAD/CAM on Various Machined Pieces, Mohamed Wassim Maazaoui</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="nav-name">Mohamed Wassim Maazaoui</a>
+      <ul class="nav-links">
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="academic-projects.html">Academic Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <a href="projects.html" class="breadcrumb">← All Projects</a>
+    <h1>CAD/CAM on Various Machined Pieces</h1>
+    <p>Design-to-manufacture workflow for three precision parts, completed during a machining internship at METechnics, an aerospace and automotive parts supplier.</p>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-cell">
+      <div class="k">Parts</div>
+      <ul class="spec-list">
+        <li>Clamp</li>
+        <li>Cylinder</li>
+        <li>Column</li>
+      </ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Process</div>
+      <ul class="spec-list"><li>3-Axis &amp; 5-Axis Milling</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Software</div>
+      <ul class="spec-list">
+        <li>SolidWorks</li>
+        <li>SolidWorks CAM</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="project-desc">Designed and prepared full CNC machining programs for three functional parts, a clamp, an anti-vibration cylinder, and a guide column, starting from reference control drawings and modelling each one in SolidWorks to be compatible with the machines available in the shop. For each part, I built the complete machining sequence: selecting tools, calculating spindle speed and feed rate from cutting-parameter tables, and defining workholding (V-blocks, clamps, isostatic positioning). Toolpaths were generated and simulated in SolidWorks CAM before exporting G-code for the shop's Matsuura RA-II (3-axis), Nakamura-Tome TMC-20 (turning), and DMU 50 Evolution (5-axis) machining centers. For the more complex parts, I compared 3-axis and 5-axis strategies directly, the 5-axis rotary table cut the anti-vibrator's process from 3 setups down to 2, and the column's from 4 down to 2, by reorienting the part without unclamping it between operations.</p>
+
+  <div class="skills-group" style="margin-bottom:40px;">
+    <h3>Key methods</h3>
+    <div class="chip-row">
+      <span class="chip">SolidWorks part design from control drawings</span>
+      <span class="chip">SolidWorks CAM toolpath generation</span>
+      <span class="chip">3-axis &amp; 5-axis machining strategy</span>
+      <span class="chip">Cutting parameter calculation (Vc, feed)</span>
+      <span class="chip">G-code generation &amp; simulation</span>
+    </div>
+  </div>
+
+  <div class="part-block">
+    <div class="eyebrow">Part 01</div>
+    <h3 style="font-size:1.3rem; margin-bottom:20px;">Clamp</h3>
+    <div class="media-feature">
+      <video class="figure-video" src="clamp-cam-simulation.mp4" muted loop playsinline controls></video>
+      <div class="fig-caption">CAM simulation, 3-axis machining sequence</div>
+    </div>
+    <div class="gallery" style="margin-top: 20px;">
+      <div>
+        <img class="figure-img" src="clamp-view-general.png" alt="Clamp general isometric view">
+        <div class="fig-caption">General view</div>
+      </div>
+      <div>
+        <img class="figure-img" src="clamp-view-1.png" alt="Clamp front view">
+        <div class="fig-caption">View 1</div>
+      </div>
+      <div>
+        <img class="figure-img" src="clamp-view-2.png" alt="Clamp side profile view">
+        <div class="fig-caption">View 2</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="part-block">
+    <div class="eyebrow">Part 02</div>
+    <h3 style="font-size:1.3rem; margin-bottom:20px;">Anti-Vibration Cylinder</h3>
+    <div class="media-feature">
+      <video class="figure-video" src="cylinder-cam-simulation.mp4" muted loop playsinline controls></video>
+      <div class="fig-caption">CAM simulation, 3-axis &amp; 5-axis machining programs</div>
+    </div>
+    <div class="gallery" style="margin-top: 20px; grid-template-columns: repeat(2, 1fr);">
+      <div>
+        <img class="figure-img" src="cylinder-view-general.png" alt="Anti-vibration cylinder general isometric view">
+        <div class="fig-caption">General view</div>
+      </div>
+      <div>
+        <img class="figure-img" src="cylinder-view-face-iso.png" alt="Anti-vibration cylinder face isometric view">
+        <div class="fig-caption">Face view (back)</div>
+      </div>
+      <div>
+        <img class="figure-img" src="cylinder-view-face-flat.png" alt="Anti-vibration cylinder flat face view">
+        <div class="fig-caption">Face view (front)</div>
+      </div>
+      <div>
+        <img class="figure-img" src="cylinder-view-chamfer-detail.png" alt="Anti-vibration cylinder angled chamfer detail">
+        <div class="fig-caption">Chamfer detail</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="part-block">
+    <div class="eyebrow">Part 03</div>
+    <h3 style="font-size:1.3rem; margin-bottom:20px;">Guide Column</h3>
+    <div class="media-feature">
+      <video class="figure-video" src="column-cam-simulation.mp4" muted loop playsinline controls></video>
+      <div class="fig-caption">CAM simulation, 5-axis multi-face machining</div>
+    </div>
+    <div class="gallery" style="margin-top: 20px; max-width: 480px;">
+      <div>
+        <img class="figure-img" src="column-view-general.png" alt="Guide column general isometric view">
+        <div class="fig-caption">General view</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-group" style="margin-top:40px;">
+    <h3>Internship context</h3>
+    <p class="project-desc" style="margin-bottom:0;">Completed as a machining internship at METechnics (Manuf Engineering Technics), a Tunis-based manufacturer serving aerospace and automotive clients including Airbus and Safran. Supervised by Mrs Debbi Aalia and Mr Naimi Iheb.</p>
+  </div>
+
+  <div class="cta-row" style="margin-top:56px; margin-bottom:80px;">
+    <a href="projects.html" class="btn btn-outline">← Back to Projects</a>
+  </div>
+
+</main>
+
+<footer>© 2026 Mohamed Wassim Maazaoui</footer>
+
+</body>
+</html>

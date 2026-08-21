@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1220 1010" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="1220" height="1010" fill="#F7F7F4"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#17181A"/></marker><marker id="arrowb" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2F5D8A"/></marker></defs>
+<text x="610.0" y="34" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#17181A" text-anchor="middle">PEM ELECTROLYZER — SYSTEM MODEL</text>
+<text x="610.0" y="56" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="11.5" font-weight="normal" fill="#63666B" text-anchor="middle" letter-spacing="0.08em">SIMULINK SIGNAL FLOW  —  TESTPVCOMPRESSED.SLX</text>
+<rect x="40" y="90" width="1140" height="880" fill="none" stroke="#D8D8D3" stroke-width="1"/>
+<path d="M 40 106 L 40 90 L 56 90" fill="none" stroke="#2F5D8A" stroke-width="1.6"/>
+<path d="M 1180 106 L 1180 90 L 1164 90" fill="none" stroke="#2F5D8A" stroke-width="1.6"/>
+<path d="M 40 954 L 40 970 L 56 970" fill="none" stroke="#2F5D8A" stroke-width="1.6"/>
+<path d="M 1180 954 L 1180 970 L 1164 970" fill="none" stroke="#2F5D8A" stroke-width="1.6"/>
+<rect x="90" y="160" width="140" height="60" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="160.0" y="195.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">CLOCK</text>
+<rect x="270" y="160" width="140" height="60" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="340.0" y="195.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">GAIN</text>
+<rect x="450" y="145" width="300" height="90" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="600.0" y="186.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">LOOKUP TABLE</text>
+<text x="600.0" y="204.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">current_month_power</text>
+<text x="600.0" y="217.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">set monthly by monthly_simulation.m</text>
+<path d="M 230 190 L 270 190" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 410 190 L 450 190" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 600 235 L 600 270" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="170" y="290" width="260" height="110" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="300.0" y="341.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">ANODE</text>
+<text x="300.0" y="359.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">oxygen evolution</text>
+<text x="300.0" y="372.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">+ water inlet (Waterin)</text>
+<rect x="470" y="290" width="260" height="110" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="600.0" y="341.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">MEMBRANE</text>
+<text x="600.0" y="359.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">ionic transport</text>
+<text x="600.0" y="372.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">+ water crossover (FH2Om)</text>
+<rect x="770" y="290" width="260" height="110" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="900.0" y="341.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">CATHODE</text>
+<text x="900.0" y="359.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">hydrogen evolution</text>
+<text x="900.0" y="372.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">+ water balance</text>
+<line x1="300" y1="278" x2="900" y2="278" stroke="#17181A" stroke-width="1.5"/>
+<path d="M 300 278 L 300 290" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 600 278 L 600 290" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 900 278 L 900 290" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="300" y1="430" x2="900" y2="430" stroke="#17181A" stroke-width="1.5"/>
+<path d="M 300 400 L 300 430" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 600 400 L 600 430" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 900 400 L 900 430" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 600 430 L 600 430" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="270.0" y="402.0" width="60" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="300" y="419" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">PO2</text>
+<rect x="568.0" y="402.0" width="64" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="600" y="419" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">lamm</text>
+<rect x="870.0" y="402.0" width="60" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="900" y="419" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">Ph2</text>
+<path d="M 1030 330 L 1040 330" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1012.0" y="432.0" width="56" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="1040" y="449" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">FH2</text>
+<rect x="450" y="450" width="300" height="90" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="600.0" y="491.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">VOLTAGE</text>
+<text x="600.0" y="509.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">combines lamm, PO2, Ph2 &amp; Tel</text>
+<text x="600.0" y="522.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">into stack voltage &amp; efficiency</text>
+<rect x="170" y="450" width="220" height="90" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="280.0" y="491.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">POWER CALC</text>
+<text x="280.0" y="509.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">Pel = current × Vel</text>
+<path d="M 600 430 L 600 450" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 300 430 L 200 430 L 200 450" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="162.0" y="402.0" width="76" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="200" y="419" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">current</text>
+<path d="M 450 495 L 390 495" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 280.0 540 L 280.0 575" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="256.75" y="577.0" width="46.5" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="280.0" y="594" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">Pel</text>
+<path d="M 530 540 L 530 575" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="506.75" y="577.0" width="46.5" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="530" y="594" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">Elf</text>
+<rect x="950" y="650" width="180" height="70" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="1040.0" y="681.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">INTEGRATOR</text>
+<text x="1040.0" y="699.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">accumulates FH2</text>
+<text x="1040.0" y="712.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">over time → NH2</text>
+<rect x="950" y="760" width="180" height="90" fill="#EFEFEA" stroke="#17181A" stroke-width="1.3"/>
+<text x="1040.0" y="801.0" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#17181A" text-anchor="middle">STORAGE BOTTLE</text>
+<text x="1040.0" y="819.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">gas volume, R, Tb,</text>
+<text x="1040.0" y="832.0" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#63666B" text-anchor="middle">initial pressure Pbi</text>
+<path d="M 1040 330 L 1040 650" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 1040.0 720 L 1040.0 760" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 1040.0 850 L 1040.0 870" fill="none" stroke="#17181A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1020.5" y="872.0" width="39.0" height="26" fill="#E4ECF3" stroke="none"/>
+<text x="1040.0" y="889" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="12" font-weight="normal" fill="#2F5D8A" text-anchor="middle">pb</text>
+<rect x="280" y="935" width="640" height="55" fill="#E4ECF3" stroke="#2F5D8A" stroke-width="1.3"/>
+<text x="600.0" y="957" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="13" font-weight="700" fill="#2F5D8A" text-anchor="middle">monthly_simulation.m</text>
+<text x="600.0" y="975" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="normal" fill="#2F5D8A" text-anchor="middle">12-month loop → trapz(FH2) for daily H2 mass, η(Pel) = H2·39.4 / E_el</text>
+<path d="M 200 920 L 600.0 920 L 600.0 935" fill="none" stroke="#D8D8D3" stroke-width="1" stroke-dasharray="2,3"/>
+<path d="M 300 920 L 600.0 920 L 600.0 935" fill="none" stroke="#D8D8D3" stroke-width="1" stroke-dasharray="2,3"/>
+<path d="M 530 920 L 600.0 920 L 600.0 935" fill="none" stroke="#D8D8D3" stroke-width="1" stroke-dasharray="2,3"/>
+<path d="M 1040 920 L 600.0 920 L 600.0 935" fill="none" stroke="#D8D8D3" stroke-width="1" stroke-dasharray="2,3"/>
+<path d="M 1040.0 920 L 600.0 920 L 600.0 935" fill="none" stroke="#D8D8D3" stroke-width="1" stroke-dasharray="2,3"/>
+<path d="M 280.0 920 L 600.0 920 L 600.0 935" fill="none" stroke="#D8D8D3" stroke-width="1" stroke-dasharray="2,3"/>
+<line x1="80" y1="110" x2="1120" y2="110" stroke="#D8D8D3" stroke-width="1"/>
+<rect x="82" y="100" width="147" height="18" fill="#F7F7F4"/>
+<text x="90" y="114" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="11.5" fill="#2F5D8A" text-anchor="start" letter-spacing="0.06em">01 — POWER INPUT</text>
+<line x1="80" y1="270" x2="1120" y2="270" stroke="#D8D8D3" stroke-width="1"/>
+<rect x="82" y="260" width="210" height="18" fill="#F7F7F4"/>
+<text x="90" y="274" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="11.5" fill="#2F5D8A" text-anchor="start" letter-spacing="0.06em">02 — ELECTROCHEMICAL CORE</text>
+<line x1="80" y1="430" x2="1120" y2="430" stroke="#D8D8D3" stroke-width="1"/>
+<rect x="82" y="420" width="203" height="18" fill="#F7F7F4"/>
+<text x="90" y="434" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="11.5" fill="#2F5D8A" text-anchor="start" letter-spacing="0.06em">03 — VOLTAGE &amp; POWER</text>
+<line x1="80" y1="630" x2="1120" y2="630" stroke="#D8D8D3" stroke-width="1"/>
+<rect x="82" y="620" width="182" height="18" fill="#F7F7F4"/>
+<text x="90" y="634" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="11.5" fill="#2F5D8A" text-anchor="start" letter-spacing="0.06em">04 — GAS ACCUMULATION</text>
+<line x1="80" y1="905" x2="1120" y2="905" stroke="#D8D8D3" stroke-width="1"/>
+<rect x="82" y="895" width="322" height="18" fill="#F7F7F4"/>
+<text x="90" y="909" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="11.5" fill="#2F5D8A" text-anchor="start" letter-spacing="0.06em">05 — LOGGED PER MONTH → AUTOMATION SCRIPT</text>
+</svg>

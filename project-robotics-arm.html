@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robotic Arm Design & Simulation, Mohamed Wassim Maazaoui</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="nav-name">Mohamed Wassim Maazaoui</a>
+      <ul class="nav-links">
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="academic-projects.html">Academic Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <a href="projects.html" class="breadcrumb">← All Projects</a>
+    <h1>Robotic Arm Design &amp; Simulation</h1>
+    <p>A two-link (2R) planar robotic arm: from CAD assembly to kinematics and closed-loop motion control.</p>
+  </div>
+
+  <div class="spec-grid">
+    <div class="spec-cell">
+      <div class="k">DOF</div>
+      <ul class="spec-list"><li>2 (2R Planar)</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Design</div>
+      <ul class="spec-list"><li>PTC Creo</li></ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Simulation</div>
+      <ul class="spec-list">
+        <li>Simulink</li>
+        <li>Simscape Multibody</li>
+      </ul>
+    </div>
+    <div class="spec-cell">
+      <div class="k">Control</div>
+      <ul class="spec-list"><li>PID</li></ul>
+    </div>
+  </div>
+
+  <p class="project-desc">Designed and assembled a two-link (2R) planar robotic arm in PTC Creo, stepping outside my usual SolidWorks workflow as a personal challenge. The CAD assembly (base link, arm 1, arm 2) was imported into MATLAB/Simulink through Simscape Multibody, converting the Creo geometry into a physically simulated multibody model with accurate mass and inertia properties carried over from the CAD. On top of that model, I implemented forward and inverse kinematics to relate joint angles to end-effector position, generated joint trajectories, and used PID controllers to drive and simulate the arm's motion toward target poses. It's a compact project, but it connected CAD design, kinematics, and control in a single working pipeline, end to end, from a solid model to a controlled simulation.</p>
+
+  <div class="skills-group" style="margin-bottom:40px;">
+    <h3>Key methods</h3>
+    <div class="chip-row">
+      <span class="chip">Forward &amp; inverse kinematics</span>
+      <span class="chip">Joint trajectory generation</span>
+      <span class="chip">PID motion control</span>
+      <span class="chip">CAD → Simscape Multibody import</span>
+    </div>
+  </div>
+
+  <div class="media-feature">
+    <video class="figure-video" src="robotic-arm-showcase.mp4" autoplay muted loop playsinline controls></video>
+    <div class="fig-caption">Fig. 01, Simscape Multibody motion showcase (forward/inverse kinematics + PID control)</div>
+  </div>
+
+  <div class="gallery" style="grid-template-columns: 1fr; max-width: 480px; margin-top: 28px;">
+    <div>
+      <img class="figure-img" src="robotic-arm-render.png" alt="PTC Creo render of the two-link robotic arm assembly">
+      <div class="fig-caption">Fig. 02, Base, arm 1 &amp; arm 2 assembly (PTC Creo)</div>
+    </div>
+  </div>
+
+  <div class="skills-group" style="margin-top:40px;">
+    <h3>Acknowledgment</h3>
+    <p class="project-desc" style="margin-bottom:0;">Built as a personal project, with guidance from Mr. Sami Bennour.</p>
+  </div>
+
+  <div class="cta-row" style="margin-top:56px; margin-bottom:80px;">
+    <a href="projects.html" class="btn btn-outline">← Back to Projects</a>
+  </div>
+
+</main>
+
+<footer>© 2026 Mohamed Wassim Maazaoui</footer>
+
+</body>
+</html>
