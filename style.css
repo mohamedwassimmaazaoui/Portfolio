@@ -127,6 +127,7 @@ nav{ display:flex; align-items:center; justify-content: space-between; padding: 
 .btn-primary:hover{ background: #7D74FF; transform: translateY(-1px); }
 .btn-outline{ border-color: var(--line); color: var(--ink); }
 .btn-outline:hover{ border-color: var(--ink-muted); transform: translateY(-1px); }
+button.btn{ background: transparent; font-family: 'Inter', sans-serif; cursor: pointer; }
 
 /* ---------- sections ---------- */
 section.block{ padding: 72px 0; border-top: 1px solid var(--line); }
