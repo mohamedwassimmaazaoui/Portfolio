@@ -97,7 +97,14 @@
       <p>Open to mechanical engineering roles in design, simulation, or manufacturing. Reach out directly or download my CV.</p>
       <div class="cta-row">
         <a href="CV.pdf" class="btn btn-primary" download>Download CV</a>
-        <a href="mailto:mohamedwassimmaazaoui@gmail.com" class="btn btn-outline">Email</a>
+        <button type="button" class="btn btn-outline" id="email-copy-btn" onclick="
+          navigator.clipboard.writeText('mohamedwassimmaazaoui@gmail.com').then(function(){
+            var btn = document.getElementById('email-copy-btn');
+            var original = btn.textContent;
+            btn.textContent = 'Copied!';
+            setTimeout(function(){ btn.textContent = original; }, 1800);
+          });
+        ">Copy Email</button>
         <a href="https://linkedin.com/in/medmaazaoui" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
